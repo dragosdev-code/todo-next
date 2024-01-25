@@ -1,5 +1,5 @@
-const DocsIdPage = ({ params }) => {
-  console.log({ params })
+const DocsIdPage = ({ params, searchParams }) => {
+  console.log({ params, searchParams })
   return <div>docs id page {params.id.join(' / ')}</div>
 }
 
